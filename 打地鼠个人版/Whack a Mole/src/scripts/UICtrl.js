@@ -43,6 +43,8 @@ export default class UICtrl extends Laya.Script {
         this.ExitBT=null;
         /** @prop {name:settingPanel, tips:"再来一局按钮", type:Node, default:null}*/
         this.settingPanel=null;
+        /** @prop {name:testButton, tips:"再来一局按钮", type:Node, default:null}*/
+        this.testButton=null;
 
        
 
@@ -97,6 +99,11 @@ export default class UICtrl extends Laya.Script {
                Laya.stage.event("pause",this.pause);
             }
         });
+
+        this.testButton.on(Laya.Event.CLICK,this,(e)=>{
+            console.log("textButton点击");
+            console.log(e);
+        })
         this.pos1=new Laya.Vector3();
         //监听再来一局按钮按下
         this.btn_Again.on(Laya.Event.CLICK,this,this.againGame);

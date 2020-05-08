@@ -2,11 +2,11 @@
     "x":0,
     "type":"Scene",
     "selectedBox":2,
-    "selecteID":23,
+    "selecteID":33,
     "searchKey":"Scene",
     "props":{"width":1920,"sceneColor":"#000000","height":1080},
     "nodeParent":-1,
-    "maxID":29,
+    "maxID":34,
     "label":"Scene",
     "isOpen":true,
     "isDirectory":true,
@@ -38,7 +38,7 @@
             "source":"src/scripts/UICtrl.js",
             "searchKey":"Script,UICtrl",
             "removeAble":true,
-            "props":{"txt_Time":"@node:4","txt_Score":"@node:6","startBT":"@node:12","soundBT":"@node:26","settingPanel":"@node:23","settingBT":"@node:18","pauseBT":"@node:21","overpanel":"@node:14","hscore":"@node:22","gamestartPanel":"@node:13","gamepanel":"@node:15","gameoverpanel":"@node:14","gameoverPanel":"@node:7","btn_Again":"@node:8","addscore":"@Prefab:prefab/Addscore.prefab","ExitBT":"@node:28","BGMBT":"@node:27"},
+            "props":{"txt_Time":"@node:4","txt_Score":"@node:6","testButton":"@node:33","startBT":"@node:12","soundBT":"@node:26","settingPanel":"@node:23","settingBT":"@node:18","pauseBT":"@node:21","overpanel":"@node:14","hscore":"@node:22","gamestartPanel":"@node:13","gamepanel":"@node:15","gameoverpanel":"@node:14","gameoverPanel":"@node:7","btn_Again":"@node:8","addscore":"@Prefab:prefab/Addscore.prefab","ExitBT":"@node:28","BGMBT":"@node:27"},
             "nodeParent":2,
             "label":"UICtrl",
             "isDirectory":false,
@@ -55,14 +55,13 @@
             "props":{"y":71,"x":-32,"width":1286,"visible":true,"name":"gamestartpanel","height":685},
             "nodeParent":2,
             "label":"gamestartpanel",
-            "isOpen":true,
+            "isOpen":false,
             "isDirectory":true,
             "isAniNode":true,
             "hasChild":true,
             "compId":13,
             "child":[
                 {
-                    "x":30,
                     "type":"Text",
                     "searchKey":"Text,Name",
                     "props":{"y":110,"x":684,"width":552,"valign":"middle","text":"WHACK ","strokeColor":"#133b90","stroke":0,"name":"Name","height":352,"fontSize":150,"font":"Microsoft YaHei","color":"#f8d41a","bold":true,"align":"center"},
@@ -75,7 +74,6 @@
                     "compId":10,
                     "child":[
                         {
-                            "x":45,
                             "type":"Text",
                             "searchKey":"Text",
                             "props":{"y":206,"x":142,"width":323,"valign":"middle","text":"A MOLE","strokeColor":"#40400b","stroke":0,"italic":true,"height":134,"fontSize":80,"color":"#ffffff","bold":true,"align":"center"},
@@ -90,7 +88,6 @@
                         }]
                 },
                 {
-                    "x":30,
                     "type":"Button",
                     "searchKey":"Button,Start",
                     "props":{"y":485,"x":684,"skin":"comp/未标题-2.png","name":"Start"},
@@ -112,14 +109,13 @@
             "props":{"y":-15,"x":22,"name":"gameoverpanel"},
             "nodeParent":2,
             "label":"gameoverpanel",
-            "isOpen":true,
+            "isOpen":false,
             "isDirectory":true,
             "isAniNode":true,
             "hasChild":true,
             "compId":14,
             "child":[
                 {
-                    "x":30,
                     "type":"Text",
                     "searchKey":"Text,gameOver",
                     "props":{"y":286,"x":413,"width":1094,"visible":true,"valign":"middle","text":"GAME OVER","strokeColor":"#7aff00","stroke":0,"name":"gameOver","italic":false,"height":344,"fontSize":120,"font":"Microsoft YaHei","color":"#f8d41a","bold":true,"align":"center"},
@@ -132,7 +128,6 @@
                     "compId":7,
                     "child":[
                         {
-                            "x":45,
                             "type":"Button",
                             "searchKey":"Button,btn_Again",
                             "props":{"y":250,"x":300,"width":494,"stateNum":"3","skin":"comp/未标题-3.png","name":"btn_Again","labelStrokeColor":"#ffffff","labelSize":60,"labelColors":"#ffffff","labelBold":true,"label":"再试一次","height":122},
@@ -155,14 +150,13 @@
             "props":{"name":"gamepanel"},
             "nodeParent":2,
             "label":"gamepanel",
-            "isOpen":true,
+            "isOpen":false,
             "isDirectory":true,
             "isAniNode":true,
             "hasChild":true,
             "compId":15,
             "child":[
                 {
-                    "x":30,
                     "type":"Text",
                     "searchKey":"Text,highScore",
                     "props":{"y":64,"x":8,"width":504,"valign":"middle","text":"Highest:0","strokeColor":"#7aff00","stroke":0,"name":"highScore","italic":false,"height":145,"fontSize":60,"font":"Microsoft YaHei","color":"#ffffff","bold":true,"align":"left"},
@@ -177,7 +171,6 @@
                         ]
                 },
                 {
-                    "x":30,
                     "type":"Text",
                     "searchKey":"Text,txt_Time",
                     "props":{"y":0,"x":780,"width":362,"valign":"middle","text":"Time:60s","strokeColor":"#7aff00","stroke":0,"name":"txt_Time","italic":false,"height":145,"fontSize":80,"font":"Microsoft YaHei","color":"#ffffff","bold":true},
@@ -192,7 +185,6 @@
                         ]
                 },
                 {
-                    "x":30,
                     "type":"Text",
                     "searchKey":"Text,txt_Score",
                     "props":{"y":-17,"x":8,"width":504,"valign":"middle","text":"Score:0","strokeColor":"#7aff00","stroke":0,"name":"txt_Score","italic":false,"height":145,"fontSize":60,"font":"Microsoft YaHei","color":"#ffffff","bold":true,"align":"left"},
@@ -244,14 +236,13 @@
             "props":{"y":335.5,"x":703.5,"width":513,"visible":false,"skin":"comp/img_bg.png","height":304},
             "nodeParent":2,
             "label":"Image",
-            "isOpen":true,
+            "isOpen":false,
             "isDirectory":true,
             "isAniNode":true,
             "hasChild":true,
             "compId":23,
             "child":[
                 {
-                    "x":30,
                     "type":"Text",
                     "searchKey":"Text",
                     "props":{"y":0,"x":0,"width":511,"valign":"middle","text":"设置","strokeColor":"#201f1f","stroke":2,"height":96,"fontSize":50,"font":"Microsoft YaHei","color":"#ffffff","bold":true,"align":"center"},
@@ -265,7 +256,6 @@
                         ]
                 },
                 {
-                    "x":30,
                     "type":"CheckBox",
                     "searchKey":"CheckBox,S",
                     "props":{"y":152,"x":21,"width":178,"skin":"comp/checkbox.png","selected":true,"name":"S","labelSize":50,"labelPadding":"10","labelBold":true,"label":"Sound","height":65},
@@ -279,7 +269,6 @@
                         ]
                 },
                 {
-                    "x":30,
                     "type":"CheckBox",
                     "searchKey":"CheckBox,BGM",
                     "props":{"y":152,"x":285,"width":178,"skin":"comp/checkbox.png","selected":true,"name":"BGM","labelSize":50,"labelPadding":"10","labelBold":true,"label":"Music","height":65},
@@ -293,7 +282,6 @@
                         ]
                 },
                 {
-                    "x":30,
                     "type":"Button",
                     "searchKey":"Button,Exit",
                     "props":{"y":0,"x":454,"width":57,"skin":"comp/btn_close.png","name":"Exit","height":57},
@@ -307,6 +295,62 @@
                         ]
                 }],
             "$HIDDEN":true
+        },
+        {
+            "x":15,
+            "type":"Circle",
+            "searchKey":"Circle",
+            "props":{"y":322,"x":477,"radius":50,"lineWidth":1,"fillColor":"#ff0000"},
+            "nodeParent":2,
+            "label":"Circle",
+            "isDirectory":false,
+            "isAniNode":true,
+            "hasChild":false,
+            "compId":30,
+            "child":[
+                ]
+        },
+        {
+            "x":15,
+            "type":"Line",
+            "searchKey":"Line",
+            "props":{"y":150,"x":259,"toY":147.5,"toX":395,"lineWidth":1,"lineColor":"#ff0000"},
+            "nodeParent":2,
+            "label":"Line",
+            "isDirectory":false,
+            "isAniNode":true,
+            "hasChild":false,
+            "compId":31,
+            "child":[
+                ]
+        },
+        {
+            "x":15,
+            "type":"FillText",
+            "searchKey":"FillText",
+            "props":{"y":223.75,"x":356.5,"text":"fillText","color":"#ff0000"},
+            "nodeParent":2,
+            "label":"FillText",
+            "isDirectory":false,
+            "isAniNode":true,
+            "hasChild":false,
+            "compId":32,
+            "child":[
+                ]
+        },
+        {
+            "x":15,
+            "type":"Button",
+            "searchKey":"Button,testButton",
+            "props":{"y":312,"x":730,"skin":"comp/button.png","name":"testButton","label":"label"},
+            "nodeParent":2,
+            "label":"testButton",
+            "isDirectory":false,
+            "isAniNode":true,
+            "hasChild":false,
+            "compId":33,
+            "child":[
+                ]
         }],
     "animations":[
         {
