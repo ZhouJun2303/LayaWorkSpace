@@ -1,0 +1,1 @@
+{"type":"Scene","props":{"width":640,"height":1136},"compId":2,"child":[{"type":"Script","props":{"runtime":"load/startSence.js"},"compId":3},{"type":"Button","props":{"y":0,"x":512,"var":"restart","skin":"comp/button.png","labelSize":30,"labelFont":"SimSun","label":"重新开始"},"compId":5}],"loadList":["comp/button.png"],"loadList3D":[]}

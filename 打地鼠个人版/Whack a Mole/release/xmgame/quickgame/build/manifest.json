@@ -1,0 +1,14 @@
+{
+  "package": "com.pjz.dadishu",
+  "name": "打地鼠",
+  "versionName": "1.0",
+  "versionCode": 1,
+  "minPlatformVersion": 1050,
+  "icon": "/layaicon/timg.png",
+  "orientation": "landscape",
+  "config": {
+    "logLevel": "off",
+    "debug": true
+  },
+  "type": "game"
+}

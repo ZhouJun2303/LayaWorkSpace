@@ -1,0 +1,25 @@
+{
+    "x":0,
+    "type":"Text",
+    "selectedBox":16,
+    "searchKey":"Text,Addscore",
+    "props":{"y":0,"x":0,"width":470,"valign":"top","text":"+1","presetID":1,"preset":"laya/pages/prefab/Addscore.prefab","name":"Addscore","isPresetRoot":true,"height":452,"fontSize":80,"font":"Microsoft YaHei","color":"#ffc240","bold":true,"align":"left"},
+    "nodeParent":-1,
+    "maxID":17,
+    "label":"Addscore",
+    "isDirectory":false,
+    "isAniNode":true,
+    "hasChild":false,
+    "compId":16,
+    "child":[
+        ],
+    "animations":[
+        {
+            "nodes":[
+                ],
+            "name":"ani1",
+            "id":1,
+            "frameRate":24,
+            "action":0
+        }]
+}
